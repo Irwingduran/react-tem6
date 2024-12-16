@@ -4,7 +4,8 @@ import Hero from './components/Hero'
 import OurServices from './components/OurServices'
 import Section from './components/Section'
 import LetsMakeHappen from './components/LetsMakeHappen'
-
+import ProfessionalDetails from './components/ProfessionalDetails'
+import TestimonialCarousel from './components/TestimonialCarousel'
 import Footer from './components/Footer'
 import GrowIn from './animation/GrowIn'
 
@@ -20,8 +21,10 @@ const App = () => {
       <OurServices />
       <GrowIn>
         <LetsMakeHappen />
+        <ProfessionalDetails/>
       </GrowIn>
-    
+     
+      <TestimonialCarousel/>
     
         <Footer />
     </div>
