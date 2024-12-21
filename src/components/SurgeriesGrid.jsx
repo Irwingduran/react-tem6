@@ -11,12 +11,6 @@ const SurgeriesGrid = () => {
       arrowBgColor: "#0284C7", // Azul médico para el botón
     },
     {
-      title: "Crecimiento Prostático",
-      description: "descripción",
-      image: "/services/agranda.jpg",
-      arrowBgColor: "#0284C7",
-    },
-    {
       title: "Cáncer de Próstata",
       description: "descripción",
       image: "/services/cancer.jpg",
@@ -28,23 +22,23 @@ const SurgeriesGrid = () => {
       image: "/services/piedras.jpg",
       arrowBgColor: "#0284C7",
     },
-    {
-      title: "Circuncisión",
-      description: "descripción",
-      image: "/services/circu.jpg",
-      arrowBgColor: "#0284C7",
-    },
   ];
 
   const servicesList = [
     "Crecimiento Prostático",
-    "Disfunción Eréctil",
-    "Piedras Urinarias",
     "Infecciones de transmisión sexual",
     "Incontinencia urinaria, infección urinaria, y prolapso genital",
     "Cálculos de las vías urinarias, tratamiento médico y quirúrgico",
     "Enfermedades de la próstata",
     "Malformaciones renales y de la vía urinaria",
+    "Infertilidad masculina,",
+ "Circuncisión",
+"Transplante renal",
+"Cáncer de pene",
+"Cáncer de testículo",
+"Cáncer de riñón",
+"Laparoscopia",
+"Endourología",
 ];
 
   return (
