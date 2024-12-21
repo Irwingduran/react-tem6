@@ -37,9 +37,9 @@ const Contact = () => {
             Teléfono
           </label>
           <input
-            type="email"
-            id="email"
-            name="email"
+            type="tel"
+            id="tel"
+            name="tel"
             placeholder="Ingresa tu número de teléfono"
             className="p-3 rounded-[20px] border border-gray-300 shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
           />

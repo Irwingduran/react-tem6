@@ -2,12 +2,12 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import WhatsAppButton from './components/WhatsAppButton'
 import Hero from './components/Hero'
-import OurServices from './components/OurServices'
 import Banner from './components/Banner'
 import About from './components/About'
 import MapLocation from './components/MapLocation'
 import TestimonialCarousel from './components/TestimonialCarousel'
 import VideoComponent from './components/VideoComponent'
+import SurgeriesGrid from './components/SurgeriesGrid'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import GrowIn from './animation/GrowIn'
@@ -22,7 +22,7 @@ const App = () => {
       <GrowIn>
         <About />
       </GrowIn>
-      <OurServices />
+      <SurgeriesGrid/>
       <VideoComponent/>
       <Banner/>
       <TestimonialCarousel/>

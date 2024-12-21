@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import logo from '../assets/logo.png';
 import menu from '../assets/menu.svg';
 import close from '../assets/close.svg'; // Add a close icon for the mobile menu
+
 
 const Navbar = () => {
    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -12,7 +14,11 @@ const Navbar = () => {
    return (
       <div className='flex justify-between items-center py-6 lg:py-0'>
          <div className='flex gap-2 items-center'>
-            <h1 className='font-semibold text-2xl text-[#0284C7]'>Dr. Ivo Pineda Somodevilla</h1>
+            <img
+            src={logo}
+            width={40}
+            />
+            <h1 className='font-semibold text-2xl text-[#0284C7]'>Dr. Ivo Pineda </h1>
          
          </div>
          <div className='hidden lg:flex items-center'>
