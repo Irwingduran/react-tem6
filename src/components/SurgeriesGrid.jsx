@@ -44,7 +44,7 @@ const SurgeriesGrid = () => {
   return (
     <div className="bg-white py-10 px-4">
      <div className="text-center mb-8 mt-16">
-                <h2 className="text-4xl font-bold text-gray-800">Cirugías más frecuentes</h2>
+                <h2 className="text-4xl font-bold text-gray-800">Mis Servicios</h2>
             </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {surgeries.map((surgery, index) => (
