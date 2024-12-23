@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import WhatsAppButton from './components/WhatsAppButton'
 import Hero from './components/Hero'
 import Banner from './components/Banner'
 import About from './components/About'
@@ -16,7 +15,6 @@ import Contact from './components/Contact'
 const App = () => {
   return (
     <div className="px-[20px] font-space-grotesk max-w-[1440px] mx-auto lg:pt-[50px] lg:px-[100px]">
-      <WhatsAppButton/>
       <Navbar />
       <Hero />
       <GrowIn>
