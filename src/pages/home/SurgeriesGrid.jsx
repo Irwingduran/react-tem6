@@ -8,19 +8,22 @@ const SurgeriesGrid = () => {
       title: "Disfunción Eréctil",
       description: "descripción",
       image: "/services/difus.jpg",
-      arrowBgColor: "#0284C7", // Azul médico para el botón
+      arrowBgColor: "#0284C7",
+      link: "/Service",
     },
     {
       title: "Cáncer de Próstata",
       description: "descripción",
       image: "/services/cancer.jpg",
       arrowBgColor: "#0284C7",
+      link: "/Service",
     },
     {
       title: "Piedras Urinarias",
       description: "descripción",
       image: "/services/piedras.jpg",
       arrowBgColor: "#0284C7",
+      link: "/Service",
     },
   ];
 
@@ -66,7 +69,7 @@ const SurgeriesGrid = () => {
               <p className="text-sm text-gray-600 mb-4">{surgery.description}</p>
               <div className='flex items-center justify-center mt-6'>
                                 <a
-                                    href={surgery.buttonText}
+                                    href={surgery.link}
                                     className='flex items-center gap-2 px-4 py-2 rounded-full text-white font-medium'
                                     style={{ backgroundColor: surgery.arrowBgColor }}
                                 >
