@@ -1,16 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const SocialMediaButtons = () => {
-  const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+
 
   const socialLinks = [
     {
       name: 'WhatsApp',
-      url: 'https://wa.me/521XXXXXXXXXX',
+      url: 'https://api.whatsapp.com/send/?phone=5212222696218&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0',
       bgColor: 'bg-green-500',
       hoverColor: 'hover:bg-green-600',
       icon: (
@@ -19,7 +16,7 @@ const SocialMediaButtons = () => {
     },
     {
         name: 'Instagram',
-        url: 'https://instagram.com/tuusuario',
+        url: 'https://www.instagram.com/dr.ivo.urologo/?igshid=YmMyMTA2M2Y%3D',
         bgColor: 'bg-pink-500',
         hoverColor: 'hover:bg-pink-600',
         icon: (
@@ -28,7 +25,7 @@ const SocialMediaButtons = () => {
     },
     {
       name: 'Facebook',
-      url: 'https://facebook.com/tuusuario',
+      url: 'https://www.facebook.com/ivopinedasomodevilla',
       bgColor: 'bg-blue-600',
       hoverColor: 'hover:bg-blue-700',
       icon: (
@@ -37,7 +34,7 @@ const SocialMediaButtons = () => {
     },
     {
       name: 'TikTok',
-      url: 'https://tiktok.com/@tuusuario',
+      url: 'https://www.tiktok.com/@urologopineda.pue?is_from_webapp=1&sender_device=pc',
       bgColor: 'bg-gray-800',
       hoverColor: 'hover:bg-gray-900',
       icon: (
@@ -55,29 +52,16 @@ const SocialMediaButtons = () => {
       },
   ];
 
-  return (
+ return (
     <div className="fixed right-4 bottom-4 z-50 flex flex-col items-end gap-2">
-      {/* Botón flotante principal */}
-      <button
-        onClick={toggleMenu}
-        className="w-14 h-14 flex items-center justify-center bg-[#0284C7] hover:bg-blue-100 text-blue-500 rounded-full shadow-lg"
-      >
-        {isOpen ? '✖️' : '➕'}
-      </button>
-
-      {/* Botones de redes sociales */}
-      <div
-        className={`flex flex-col gap-2 transition-all duration-300 ${
-          isOpen ? 'opacity-100 max-h-60' : 'opacity-0 max-h-0'
-        } overflow-hidden`}
-      >
+   
         {socialLinks.map((social) => (
           <a
             key={social.name}
             href={social.url}
             target="_blank"
             rel="noopener noreferrer"
-            className={`flex items-center justify-center w-12 h-12 ${social.bgColor} ${social.hoverColor} rounded-full shadow-lg transition-transform`}
+            className={`flex items-center justify-center w-10 h-10 ${social.bgColor} ${social.hoverColor} rounded-full shadow-lg transition-transform`}
             aria-label={`Visitar ${social.name}`}
           >
             <svg
@@ -91,7 +75,7 @@ const SocialMediaButtons = () => {
           </a>
         ))}
       </div>
-    </div>
+
   );
 };
 
