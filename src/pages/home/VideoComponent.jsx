@@ -19,18 +19,14 @@ const VideoComponent = () => {
 
       {/* Text Section */}
       <div className="w-full md:w-1/2">
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">Mitos sobre la Urología</h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-4">Aprende más...</h2>
         <h3 className="text-2xl font-semibold text-gray-700 mb-2">
-           Subtitulo
+           Mitos sobre la urología:
         </h3>
         <p className="text-gray-600 mb-4">
-          dexcripción
+        El Urólogo Ivo Humberto Pineda nos habla sobre los mitos de la urología.
         </p>
-        <ul className="list-disc list-inside text-gray-600 mb-6">
-          <li>Texto.</li>
-          <li>Texto.</li>
-          <li>Texto.</li>
-        </ul>
+    
 
       
       </div>

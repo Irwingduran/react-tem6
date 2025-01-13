@@ -3,30 +3,30 @@ import React, { useState } from 'react';
 const FAQ = () => {
   const faqs = [
     {
-      question: '¿Preguntas Frecuentes?',
+      question: '¿Por qué tengo dificultad para orinar?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolore voluptatem excepturi similique, adipisci et, aspernatur incidunt a doloribus quisquam rem alias id recusandae iste laborum quidem hic ad voluptatibus.',
+        'En hombres mayores suele relacionarse con agrandamiento de próstata. En otros casos puede deberse a obstrucciones o problemas neurológicos.',
     },
     
     {
-        question: '¿Preguntas Frecuentes?',
+        question: '¿Es normal orinar frecuentemente durante la noche?',
         answer:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolore voluptatem excepturi similique, adipisci et, aspernatur incidunt a doloribus quisquam rem alias id recusandae iste laborum quidem hic ad voluptatibus.',
+          'No es normal orinar más de una vez por noche. Si ocurre frecuentemente, podría indicar problemas prostáticos, diabetes o trastornos de la vejiga.',
       },
       {
-        question: '¿Preguntas Frecuentes?',
+        question: '¿Por qué tengo ardor al orinar?',
         answer:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolore voluptatem excepturi similique, adipisci et, aspernatur incidunt a doloribus quisquam rem alias id recusandae iste laborum quidem hic ad voluptatibus.',
+          'Generalmente indica una infección urinaria, aunque también puede ser por cálculos renales o enfermedades de transmisión sexual.',
       },
       {
-        question: '¿Preguntas Frecuentes?',
+        question: '¿Es grave ver sangre en la orina?',
         answer:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolore voluptatem excepturi similique, adipisci et, aspernatur incidunt a doloribus quisquam rem alias id recusandae iste laborum quidem hic ad voluptatibus.',
+          'La sangre en la orina siempre debe ser evaluada por un médico, ya que puede indicar desde infecciones hasta condiciones más serias como cáncer.',
       },
       {
-        question: '¿Preguntas Frecuentes?',
+        question: '¿Cuándo debo visitar al urólogo?',
         answer:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolore voluptatem excepturi similique, adipisci et, aspernatur incidunt a doloribus quisquam rem alias id recusandae iste laborum quidem hic ad voluptatibus.',
+          'Debe consultar si presenta dolor al orinar, sangre en la orina, dificultad para orinar, infecciones frecuentes o cualquier cambio en sus hábitos urinarios.',
       },
   ];
 

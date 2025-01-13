@@ -18,15 +18,21 @@ const Home = () => {
       <Navbar />
       <Hero />
       <GrowIn>
+        <div id='about'>
         <About />
+        </div>
       </GrowIn>
+      <div id='service'>
       <SurgeriesGrid/>
+      </div>
       <VideoComponent/>
       <Banner/>
       <TestimonialCarousel/>
       <MapLocation/>
       <FAQ/>
+      <div id='contact'>
     <Contact/>
+      </div>
         <Footer />
     </div>
   )

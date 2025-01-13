@@ -30,7 +30,7 @@ import smu from '../../assets/brands/Sociedad Mexicana de Urología.png';
                     <h2 className='font-semibold text-[35px] sm:text-[40px] md:text-[50px] lg:text-[60px]'>Dr. Ivo Humberto <br /> Pineda Somodevilla</h2>
                     <h3 className='font-semibold text-[15px] sm:text-[20px] md:text-[30px] lg:text-[40px]'>Urólogo</h3>
                     <p className='text-[20px]'>Me distingue la discreción, profesionalismo, trato amable, así como conocimientos actualizados y tecnología de última generación para el tratamiento de su padecimiento.</p>
-                    <button className='bg-[#0284C7] text-white text-[20px] px-4 py-2 rounded-lg'>Agendar Cita</button>
+                   <a href="https://api.whatsapp.com/send/?phone=5212222696218&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" target='_blank'> <button className='bg-[#0284C7] text-white text-[20px] px-4 py-2 rounded-lg'>Agendar Cita</button></a>
                 </SlideInFromLeft>
             </div>
            

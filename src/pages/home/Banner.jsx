@@ -20,12 +20,14 @@ const Banner = () => {
         </div>
 
         {/* Botón */}
+        <a href="https://api.whatsapp.com/send/?phone=5212222696218&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0">
         <button
-          className="bg-[#0284C7] text-white font-semibold text-lg py-3 px-8 rounded-full shadow-md hover:bg-blue-100 transition-transform transform hover:scale-105"
+          className="bg-[#0284C7] text-white font-semibold text-lg py-3 px-8 rounded-full shadow-md hover:bg-blue-300 transition-transform transform hover:scale-105"
           onClick={() => alert('Redirigiendo a la página de agendar cita...')}
         >
-          Ir a WhatsApp
+          Agendar cita
         </button>
+        </a>
       </div>
     </div>
   );
