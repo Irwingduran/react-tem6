@@ -15,8 +15,8 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className='flex flex-wrap text-center items-center gap-[40px]'>
-                        <a href="/" className='text-[15px] underline'>Sobre Mí</a>
-                        <a href="/#services" className='text-[15px] underline'>Servicios</a>
+                        <a href="/#about" className='text-[15px] underline'>Sobre Mí</a>
+                        <a href="/#service" className='text-[15px] underline'>Servicios</a>
                         <a href="https://maps.app.goo.gl/zR6UzybENXQVA7Sz8" className='text-[15px] underline'>Ubicación</a>
                     </div>
                     <div className='flex gap-4'>
