@@ -6,19 +6,19 @@ const SurgeriesGrid = () => {
   const surgeries = [
     {
       title: "Disfunción Eréctil",
-      description: "descripción",
+      description: "Te ayudamos en problemas de erección y eyaculación precoz...",
       image: "/services/difus.jpg",
       arrowBgColor: "#0284C7", // Azul médico para el botón
     },
     {
       title: "Cáncer de Próstata",
-      description: "descripción",
+      description: "Recibe un diagnóstico oportuno y profesional...",
       image: "/services/cancer.jpg",
       arrowBgColor: "#0284C7",
     },
     {
       title: "Piedras Urinarias",
-      description: "descripción",
+      description: "Eliminar las piedras rara vez requiere cirugía...",
       image: "/services/piedras.jpg",
       arrowBgColor: "#0284C7",
     },
