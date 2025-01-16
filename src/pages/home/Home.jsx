@@ -28,7 +28,9 @@ const Home = () => {
       <VideoComponent/>
       <Banner/>
       <TestimonialCarousel/>
+      <div id="location">
       <MapLocation/>
+      </div>
       <FAQ/>
       <div id='contact'>
     <Contact/>
