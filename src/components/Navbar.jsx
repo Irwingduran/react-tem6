@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ScrollToHash from "../utils/ScrollToHash";
 import logo from '../assets/logo.png';
 import menu from '../assets/menu.svg';
 import close from '../assets/close.svg';
@@ -12,6 +13,7 @@ const Navbar = () => {
 
    return (
       <div className='flex justify-between items-center py-6 lg:py-0 sticky top-0 bg-white z-50'>
+         <ScrollToHash/>
          <a href="/">
             <div className='flex gap-2 items-center'>
                <img src={logo} width={40} alt="Logo" />
